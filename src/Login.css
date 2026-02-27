@@ -1,0 +1,44 @@
+
+.forget{
+    font-size:17px;
+   color: black;
+   text-decoration: none;
+   
+}
+.forget:hover{
+    text-decoration: underline;
+    color:gold;
+    cursor:alias;
+    font-size: x-large;
+}
+.Name{
+    border: 10px solid midnightblue;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 30%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+button:hover{
+    color:green;
+    font-size: 30px;
+    width:80px;
+    border: none;
+    background-color: gainsboro;
+    border-radius: 50px;
+}
+.form-control{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+input{
+    height:30px;
+    width:250px;
+    border-radius: 10px;
+}
+body{
+    background-color: darksalmon;
+}

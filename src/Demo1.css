@@ -1,0 +1,18 @@
+.btn-counter{
+    width:50%;
+    height:6vh
+}
+.counter{
+    margin-left: 30%;
+    width:500%
+}
+.box-black{
+    width: 50%;
+    height: 40vh;
+    background-color: black;
+
+}
+.box-white{
+    width: 50%;
+    height:40vh;background-color: white;
+}

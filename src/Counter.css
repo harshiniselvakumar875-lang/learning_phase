@@ -1,0 +1,10 @@
+body{
+    background: midnightblue;
+}
+.btn-counter{
+    font-size: x-large;
+    background: salmon;
+}
+.counter{
+    margin-left:2px;
+}
