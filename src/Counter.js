@@ -3,17 +3,16 @@ import  {useState}  from 'react'
 import './Counter.css'
 
 const Counter=()=>{
-    const [count,setCount]= useState(100);
+    const [count,setCount]= useState(1);
+    const[str,setStr]=useState("true");
     function logs(){
         setCount(count+1);
-    }function names(){
-
-        }
-    
+    }
     return(
         <div>
           <h1>{count}</h1>
           <button className='btn-counter'  onClick={logs}> Click</button>
+          
         </div>
     )
 }
